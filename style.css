@@ -1,29 +1,53 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #ffffff;
     color: #002b5c;
 }
 
 .hero {
-    background-color: #003f88;
+    background: linear-gradient(135deg, #002b5c, #003f88);
     color: white;
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
 }
 
 .hero h1 {
-    margin: 0;
-    font-size: 48px;
+    font-size: 46px;
+    margin: 10px 0;
+    letter-spacing: 2px;
 }
 
 .hero p {
     font-size: 18px;
-    margin-top: 10px;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+.links a:hover {
+    background: white;
+    color: #003f88;
 }
 
 .section {
-    padding: 40px 20px;
+    padding: 45px 20px;
     max-width: 900px;
     margin: auto;
 }
@@ -43,9 +67,14 @@ body {
     font-size: 16px;
 }
 
+.dark {
+    background-color: #f4f7fb;
+}
+
 footer {
-    background-color: #003f88;
+    background-color: #002b5c;
     color: white;
     text-align: center;
     padding: 15px;
+    font-size: 14px;
 }
